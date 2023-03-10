@@ -1,0 +1,18 @@
+1. Kế thừa Class:
++ Class cha(base class): lớp cha khai báo như class bình thường
++ Lớp Con(Derived class): Kế thừa từ lớp cha
++ Khai báo: class [tên class con] extends [tên class cha]
++ Các thuộc tính ở lớp cha sẽ để protected.
+
+2. Kế thừa Constructor: truy cập các constructor của class cha bằng từ khóa super
+
+3. Khởi tạo đối tượng từ class kế thừa:
+Ở Class con: chỉ cần truy xuất từ các constructor từ class cha
+Phương thức: tự động kế thừa
+
+4. Abstract class:
+- Trong lớp có phương thức abstract thì lớp đó cũng phải là abstract
+- Phương thức abstract là phương thức chỉ được định nghĩa tên hàm, các đối số, KHÔNG có nội dung hàm.
+- Lớp abstract: là một lớp trừa tượng, không thể khởi tạo nó bằng toán tử new.
+- Class con kế thừa từ abstract thì phải định nghĩa lại các phương thức abstract từ cha nó (override lại phương thức abstract của class cha)
+
