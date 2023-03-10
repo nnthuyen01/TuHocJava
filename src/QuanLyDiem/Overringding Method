@@ -1,0 +1,3 @@
+overriding method: được dùng trong một tập các lớp có mối quan hệ huyết thống có các phương thức giống
+signature y xỳ (nội dung phương thức thì khác nhau).
+=> Dễ nhớ, dễ quản lý
