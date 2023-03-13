@@ -1,0 +1,11 @@
+KẾ THỪA TỪ INTERFACE:
+1. Interface: Trong java class con chỉ được kế thừa từ 1 lớp cha, vì vậy nếu muốn sử dụng đa kế thừa
+(1 lớp con kế thừa được từ nhiều lớp cha) thì ta sử dụng Interface.
+2. Interface được khai báo giống như 1 lớp, với các thuộc tính là các hằng và các phương thức trừu tượng
+(phương thức chỉ có phần header không có phần body)
+3. Do trong interface hoàn toàn là các hàm trừu tượng nên lớp implements nó, bắt buộc phải override lại phương thức này.
+4. Một class có thể implements (dẫn xuất) từ nhiều interface.
+5. Các interface có thể extends (kế thừa từ 1 hoặc nhiều interface khác).
+
+Tóm lại: interface có thể hiểu là tập các quy tắc (thuộc tính là các hằng số và phương thức trừu tượng)
+ép các class con phải tuân theo.
